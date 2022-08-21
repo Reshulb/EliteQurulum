@@ -2,7 +2,7 @@
     "__DTOJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "EN",
-    "AUTHOR": "@umudmmmdov1",
+    "AUTHOR": "@Sjrvan",
     "STRINGS": {
         "MAIN": {
             "INVALID_KEY": "(!) API Key is incorrect.",
@@ -13,8 +13,8 @@
             "SUCCESS_STRING": "(✓) Stringsession taken!",
             "CREATING_APP": "(i) Creating application...",
             "SUCCESS_APP": "(✓) Application creation successful!",
-            "DOWNLOADING": "(i) Downloading U S Σ R Δ T O R...",
-            "DOWNLOADED": "(✓) U S Σ R Δ T O R download successful!",
+            "DOWNLOADING": "(i) Downloading 𝙀𝙇𝙄𝙏𝙀𝙐𝙎𝙀𝙍𝘽⎋𝙏...",
+            "DOWNLOADED": "(✓) 𝙀𝙇𝙄𝙏𝙀𝙐𝙎𝙀𝙍𝘽⎋𝙏 download successful!",
             "DEPLOYING": "(i) Initiating Deploy process... (This Process May Take Long)",
             "WRITING_CONFIG": "(i) Writing data...",
             "SET_LANG": "(✓) Bot is now in {} language!",
