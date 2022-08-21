@@ -1,8 +1,8 @@
 {
-    "__DTOJSON__": true,
+    "__ELİTEJSON__": true,
     "LANGUAGE": "Türkçe",
     "LANGCODE": "TR",
-    "AUTHOR": "Eren",
+    "AUTHOR": "@Sjrvan",
     "STRINGS": {
         "MAIN": {
             "INVALID_KEY": "(!) API Key yanlış.",
@@ -13,8 +13,8 @@
             "SUCCESS_STRING": "(✓) StringSession alındı!",
             "CREATING_APP": "(i) Uygulama oluşturuluyor...",
             "SUCCESS_APP": "(✓) Uygulama oluşturma başarılı!",
-            "DOWNLOADING": "(i) U S Σ R Δ T O R indiriliyor...",
-            "DOWNLOADED": "(✓) U S Σ R Δ T O R indirmesi başarılı!",
+            "DOWNLOADING": "(i) 𝙀𝙇𝙄𝙏𝙀𝙐𝙎𝙀𝙍𝘽⎋𝙏 indiriliyor...",
+            "DOWNLOADED": "(✓) 𝙀𝙇𝙄𝙏𝙀𝙐𝙎𝙀𝙍𝘽⎋𝙏 indirmesi başarılı!",
             "DEPLOYING": "(i) Deploy işlemi başlatılıyor... (Bu İşlem Uzun Sürebilir)",
             "WRITING_CONFIG": "(i) Veriler yazılıyor...",
             "SET_LANG": "(✓) Bot artık {} dilinde!",
