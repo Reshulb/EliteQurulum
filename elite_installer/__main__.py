@@ -46,7 +46,7 @@ def hgit (connect, repo, appname):
     else:
         remote = repo.create_remote("heroku", giturl)
     try:
-        remote.push(refspec="HEAD:refs/heads/master", force=True)
+        remote.push(refspec="HEAD:refs/heads/main", force=True)
     except Exception as e:
         hata(LANG['ERROR'] + str(e))
 
@@ -60,13 +60,13 @@ async def botlog (String, Api, Hash):
     await Client.start()
 
     KanalId = await Client(CreateChannelRequest(
-        title='U S Σ R Δ T O R BotLog',
+        title='👽 𝙀𝙇𝙄𝙏𝙀𝙐𝙎𝙀𝙍𝘽⎋𝙏 BotLog',
         about=LANG['AUTO_BOTLOG'],
         megagroup=True
     ))
     KanalId = KanalId.chats[0].id
 
-    Photo = await Client.upload_file(file='uplogo.jpg')
+    Photo = await Client.upload_file(file='EliteLogo.jpg')
     await Client(EditPhotoRequest(channel=KanalId, 
         photo=Photo))
     msg = await Client.send_message(KanalId, LANG['DONT_LEAVE'])
@@ -99,16 +99,16 @@ if __name__ == "__main__":
     onemli(LANG['DOWNLOADING'])
 
     # Əkən peysərdi naxuy #
-    SyperStringKey = "rotaresU/"
-    GiperStringKey = "itreqoG/"
+    SyperStringKey = "EliteUserBot/"
+    GiperStringKey = "Reshulb/"
     InvalidKey = "moc.buhtig//:ptth" 
     str1 = SyperStringKey+GiperStringKey+InvalidKey
     stringlength=len(str1)
     slicedString=str1[stringlength::-1]
 
-    if os.path.isdir("./Userator/"):
-        rm_r("./Userator/")
-    repo = Repo.clone_from(slicedString,"./repo/", branch="master")
+    if os.path.isdir("./EliteUserBot/"):
+        rm_r("./EliteUserBot/")
+    repo = Repo.clone_from(slicedString,"./repo/", branch="main")
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     config['CLEAN_WELCOME'] = "True"
     config['CONSOLE_LOGGER_VERBOSE'] = "False"
     config['COUNTRY'] = COUNTRY
-    config['DEFAULT_BIO'] = "@UseratorOT"
+    config['DEFAULT_BIO'] = "@EliteUserBot"
     config['GALERI_SURE'] = "60"
     config['CHROME_DRIVER'] = "/usr/sbin/chromedriver"
     config['GOOGLE_CHROME_BIN'] = "/usr/sbin/chromium"
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/Goqerti/Userator"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/Reshulb/EliteUserBot"
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
     config['LANGUAGE'] = LANGUAGE
