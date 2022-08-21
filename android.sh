@@ -38,6 +38,6 @@ echo -e $ELİTE
 echo -e $BOSLUQ
 echo "⛓️ Lazımlı kiçik fayllar yüklənir"
 echo -e $BOSLUQ
-cd brend
+cd elitequrulum
 pip3 install -U -r requirements.txt
 python3 -m elite_installer
