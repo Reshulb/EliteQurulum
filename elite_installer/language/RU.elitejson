@@ -1,8 +1,8 @@
 {
-    "__DTOJSON__": true,
+    "__ELİTEJSON__": true,
     "LANGUAGE": "Pусский",
     "LANGCODE": "RU",
-    "AUTHOR": "@sahin",
+    "AUTHOR": "@sjrvan",
     "STRINGS": {
         "MAIN": {
             "INVALID_KEY": "(!) API KEY неверно введён.",
@@ -13,8 +13,8 @@
             "SUCCESS_STRING": "(✓) StringSession успешно получен!",
             "CREATING_APP": "(i) Приложение создаётся...",
             "SUCCESS_APP": "(✓) Приложение успешно создано",
-            "DOWNLOADING": "(i) U S Σ R Δ T O R устанавливается...",
-            "DOWNLOADED": "(✓) Установка U S Σ R Δ T O R успешно завершена!",
+            "DOWNLOADING": "(i) 𝙀𝙇𝙄𝙏𝙀𝙐𝙎𝙀𝙍𝘽⎋𝙏 устанавливается...",
+            "DOWNLOADED": "(✓) Установка 𝙀𝙇𝙄𝙏𝙀𝙐𝙎𝙀𝙍𝘽⎋𝙏 успешно завершена!",
             "DEPLOYING": "(i) Процедура deploy'а начинается... (Эта процедура может занять много времени)",
             "WRITING_CONFIG": "(i) Данные записываются...",
             "SET_LANG": "(✓) Ваш бот уже на {} языке!",
